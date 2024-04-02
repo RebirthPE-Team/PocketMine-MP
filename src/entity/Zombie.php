@@ -32,7 +32,7 @@ class Zombie extends Living{
 	public static function getNetworkTypeId() : string{ return EntityIds::ZOMBIE; }
 
 	protected function getInitialSizeInfo() : EntitySizeInfo{
-		return new EntitySizeInfo(1.8, 0.6); //TODO: eye height ??
+		return new EntitySizeInfo(2.8, 0.6); //TODO: eye height ??
 	}
 
 	public function getName() : string{
